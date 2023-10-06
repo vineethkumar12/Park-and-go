@@ -1,0 +1,135 @@
+
+.container{
+     position: relative;
+    box-shadow: 0 0  4px  #f5f2f2;
+     border-radius: 4em;
+     border: 4px solid transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  margin: 3% auto;
+    width: 400px;
+  
+    
+
+} 
+/*.signf{
+  border: 2px solid white;
+border-top-color: #0e0e0e;
+animation:  ani 1s infinite;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
+@keyframes ani {
+  100%{
+    rotate: 360deg;
+  }
+}*/
+
+.signname {
+ 
+ background-color:  #ff671f;;
+border: 2px solid transparent;
+box-shadow: 0 0 4px black;
+border-radius: 30em;
+padding: 6px 10px;
+color:white
+
+
+}
+/*.signf::before{
+   content: '';
+   position: absolute;
+   width: 25%;
+   height: 40px;
+   margin-top: -5px;
+   margin-left: -4px;
+   animation: animate linear 8s infinite;
+   border: 2px solid rgb(236, 233, 231);
+   border-radius: 4em;
+    z-index: 1;
+}
+@keyframes  animate{
+    0%
+    {
+      transform: rotate(0deg);
+    }
+   
+   100%
+    {
+      transform: rotate(360deg);
+    }
+}*/
+.form-group{
+  margin: 5px;
+  position: relative; 
+  width:310px;
+ 
+
+}
+label{
+position: absolute;
+margin-top: -5%;
+left:5px;
+transform: translateY(-50%);
+font-size: 1em;
+color:white;
+font-weight: bold;
+cursor: pointer;
+}
+img{
+    position: absolute;
+    margin-top: -8%;
+     margin-left: 4%;
+    transform: translateY(-50%);
+   height: 18px;
+    }
+form {
+    padding: 60px 40px 60px 0px ;
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  
+  
+input{
+    background: transparent;
+    width:100%;
+    height: 40px;
+    font-size: 1em;
+    color:white;
+    font-weight: bold;
+    border: 4px solid transparent;
+  box-shadow: 0 0 10px #0e0e0e;
+  border-radius:30em;
+  outline: none;
+  padding-left: 12%;
+
+    
+}
+input::placeholder{
+ 
+color:white;
+opacity: 0.5;
+
+  
+}
+
+.btn{
+    font-weight: bold;
+    background-color: transparent;
+ border: 4px solid transparent;
+  box-shadow: 0 0 10px #0e0e0e;
+  border-radius: 30em;
+  padding: 2px 5px 2px 5px;
+  color:white;
+  cursor: pointer;
+
+  
+  
+}
