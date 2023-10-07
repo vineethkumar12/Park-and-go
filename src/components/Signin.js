@@ -37,7 +37,7 @@ export const Signin = () => {
                 <img src={lock}  alt="no"/>
             </div><br></br>
             <div>
-            <button  type="submit" className="btn">Log In</button>
+            <button  type="submit" className="btn">Sign In</button>
             </div>
         </form>
     </div>
