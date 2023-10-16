@@ -11,7 +11,7 @@ export const Mainpage = ({signinpage,setsigninpage}) => {
  const auth=useAuth();
 
  
-   if(auth.user)
+   //if(auth.user)
   return (
     <div className='mainpage'>
        <Headder setsigninpage={setsigninpage}/>
