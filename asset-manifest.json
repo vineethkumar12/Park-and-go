@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/park-and-go/static/css/main.b242d399.css",
+    "main.js": "/park-and-go/static/js/main.8f97d8af.js",
+    "static/js/787.8e90a2e0.chunk.js": "/park-and-go/static/js/787.8e90a2e0.chunk.js",
+    "static/media/car2.jpg": "/park-and-go/static/media/car2.103544f670c3e39b3723.jpg",
+    "static/media/carosuleoffer.jpg": "/park-and-go/static/media/carosuleoffer.3f9418a9c223a17041d6.jpg",
+    "static/media/carlogo.png": "/park-and-go/static/media/carlogo.ae591bd6b8eaceddb3bf.png",
+    "static/media/map.jpg": "/park-and-go/static/media/map.6c3345bd8179a55bbef2.jpg",
+    "static/media/closureimg1.jpg": "/park-and-go/static/media/closureimg1.74727ea4c8cbe1d645ae.jpg",
+    "static/media/welcomecar.jpg": "/park-and-go/static/media/welcomecar.3b600f5422174df315e0.jpg",
+    "static/media/user.png": "/park-and-go/static/media/user.557587208eb9e232f2ca.png",
+    "static/media/discount1.png": "/park-and-go/static/media/discount1.fa26753f73a545586311.png",
+    "static/media/mail.png": "/park-and-go/static/media/mail.2c378c9ee25927123f7d.png",
+    "static/media/slick.svg": "/park-and-go/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/park-and-go/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/park-and-go/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/park-and-go/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/park-and-go/index.html",
+    "main.b242d399.css.map": "/park-and-go/static/css/main.b242d399.css.map",
+    "main.8f97d8af.js.map": "/park-and-go/static/js/main.8f97d8af.js.map",
+    "787.8e90a2e0.chunk.js.map": "/park-and-go/static/js/787.8e90a2e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b242d399.css",
+    "static/js/main.8f97d8af.js"
+  ]
+}
