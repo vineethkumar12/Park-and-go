@@ -1,0 +1,78 @@
+
+
+.menupage{
+  
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    background-color: #faf7f4; 
+   height: 350px;
+}
+.icons1{
+    display: flex;
+    gap: 150px;
+    
+    flex-direction: row;
+   
+}
+.icons2{
+    display: flex;
+    gap: 150px;
+  
+    flex-direction: row;
+     
+}  
+@media screen and (max-width: 1000px) {
+     
+  .icons1,.icons2{
+   
+    gap: 60px;
+   
+   
+}
+}
+.firstrowicons{
+  width: 100px;
+  height: 100px;
+  background-color: #ff8b1f;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   gap:20px;
+  border-radius: 1em;
+  border: 6px solid transparent;
+}
+.secondrowicons{
+  
+    width: 100px;
+    height: 100px;
+    background-color: #ff8b1f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 1em;
+     gap:20px;
+     border: 6px solid transparent;
+  }
+  .firstrowicons:hover{
+    box-shadow: 0 0  8px black;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .secondrowicons:hover{
+    box-shadow: 0 0  8px black;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .offer{
+   
+   
+   height: 30px;
+  }
+ 
+

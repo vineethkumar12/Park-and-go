@@ -1,9 +1,10 @@
 import React from 'react'
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
- 
+ import './map.css'
 export const Mappage = ({google,onMarkerClick}) => {
   return (
-    <div ><Map google={google} zoom={14}>
+    <div className='map' >
+      <Map google={google} zoom={14}>
  
     <Marker onClick={onMarkerClick}
             name={'Current location'} />

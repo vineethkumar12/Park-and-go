@@ -8,11 +8,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-   backdrop-filter: blur(15px);
+   backdrop-filter: blur(18px);
   margin: 3% auto;
     width: 400px;
   
-    
+    z-index: 1;  
 
 } 
 /*.signf{
@@ -79,7 +79,7 @@ color:white;
 font-weight: bold;
 cursor: pointer;
 }
-img{
+.icons{
     position: absolute;
     margin-top: -8%;
      margin-left: 4%;
@@ -120,6 +120,7 @@ opacity: 0.5;
 }
 
 .btn{
+
     font-weight: bold;
     background-color: transparent;
  border: 4px solid transparent;
@@ -131,4 +132,8 @@ opacity: 0.5;
   margin-left: 25px;
   background-color:  #ff8b1f;;
   
+}
+.btn:hover{
+  
+  transform: scale(1.08); 
 }

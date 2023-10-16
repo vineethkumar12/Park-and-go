@@ -1,0 +1,100 @@
+
+.bannercontainer{
+  
+   display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  padding-left: 10px;
+  background-color: #ff8b1f;
+ 
+}
+ 
+
+.bannerbtn{
+  
+  position: absolute;
+   right: 80px;
+   margin-top: 15px;
+   gap:15px;
+   display: flex;
+   
+   
+   align-items: center;
+}
+@media screen and (max-width: 1000px) {
+   .bannerbtn  {
+    position: absolute;
+     right: 10px;
+    
+   }
+    
+  
+
+}
+.bannerbtn :nth-child(3){
+
+  
+ cursor: pointer;
+ margin-left: 25px;
+ 
+ 
+} 
+.bannerbtn :nth-child(3):hover{
+
+    filter: invert(1);
+   transform: scale(1.05);
+   
+   
+  }
+  .bannerbtn :nth-child(2):hover{
+
+  
+   transform: scale(1.05);
+   
+   
+  }
+  .bannerbtn :nth-child(1):hover{
+
+  
+   transform: scale(1.05);
+   
+   
+  }
+  .text-names{
+    
+    padding: 10px 0px;
+   
+
+ }
+ @media screen and (max-width:1000px){
+   .text-names{
+      margin-right: 3% auto;
+   }
+ }
+
+ .parkandgosymbol{
+   position: absolute;
+   
+   left:10px;
+   display: flex;
+   justify-content: center;
+    top:20px;
+ }
+ 
+ #home{
+  position: relative;
+   cursor: pointer;
+ 
+   filter: invert(100%) ;
+  
+ }
+ 
+
+ #star{
+  
+  
+ 
+   cursor: pointer;
+ }

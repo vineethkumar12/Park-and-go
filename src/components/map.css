@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Style the 'map' div */
+.map {
+  z-index:10;
+  position: absolute;
+  top:57px;
+    width: 100%; /* Set the width to 100% of its container */
+    height: 100vh; /* Set the desired height */
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  /* Style the Map component (assuming it has a class name 'Map') */
+  .Map {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Style the Marker component (assuming it has a class name 'Marker') */
+  .Marker {
+    color: red; /* Change the color of the marker or any other styles you desire */
+  }
+  
