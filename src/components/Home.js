@@ -11,6 +11,6 @@ export const Home = () => {
   },[auth.user])
   
   return (
-    <div> {navigate('/signin/mainpage')}</div>
+    <div>{ navigate('/signin/mainpage')}</div>
   )
 }
