@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Park-and-go/static/css/main.df305189.css",
-    "main.js": "/Park-and-go/static/js/main.2d26a093.js",
+    "main.js": "/Park-and-go/static/js/main.b4e1d8c8.js",
     "static/js/787.8e90a2e0.chunk.js": "/Park-and-go/static/js/787.8e90a2e0.chunk.js",
     "static/media/car2.jpg": "/Park-and-go/static/media/car2.103544f670c3e39b3723.jpg",
     "static/media/carosuleoffer.jpg": "/Park-and-go/static/media/carosuleoffer.3f9418a9c223a17041d6.jpg",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/Park-and-go/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Park-and-go/index.html",
     "main.df305189.css.map": "/Park-and-go/static/css/main.df305189.css.map",
-    "main.2d26a093.js.map": "/Park-and-go/static/js/main.2d26a093.js.map",
+    "main.b4e1d8c8.js.map": "/Park-and-go/static/js/main.b4e1d8c8.js.map",
     "787.8e90a2e0.chunk.js.map": "/Park-and-go/static/js/787.8e90a2e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df305189.css",
-    "static/js/main.2d26a093.js"
+    "static/js/main.b4e1d8c8.js"
   ]
 }
