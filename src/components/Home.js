@@ -11,6 +11,6 @@ export const Home = () => {
   },[auth.user])
   
   return (
-    <div><h1>welcome to park and go website </h1></div>
+    <div> {navigate('/signin/mainpage')}</div>
   )
 }
