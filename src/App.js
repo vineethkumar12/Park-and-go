@@ -21,7 +21,7 @@ function App() {
 
   
   return (
-
+<div className='App'>
      <Authprovider>
       
     <Navbar/>
@@ -40,7 +40,7 @@ function App() {
       <Route path='otp' exact  element={<OTP page={page} setpage={setpage}/>}/>
     </Routes>
     </Authprovider>
-    
+    </div> 
   );
 }
 
