@@ -5,12 +5,13 @@ import { useAuth } from './auth';
 export const Home = () => {
   const auth=useAuth();
   const navigate=useNavigate();
-  useEffect(()=>{
-  if(auth.user)
+  /*useEffect(()=>{
+  
+    if(auth.user)
   navigate('/signin/mainpage')
-  },[auth.user])
+  },[navigate])*/
   
   return (
-    <div>{ navigate('/signin/mainpage')}</div>
+    <div>home</div>
   )
 }

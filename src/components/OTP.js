@@ -2,11 +2,14 @@ import React ,{useState,useEffect, useRef}from 'react'
 import './OTP.css'
 import { useLocation,useNavigate } from 'react-router-dom'
 import axios from 'axios' 
- 
+import { useAuth } from './auth'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export const OTP = ({page,setpage}) => {
   let currentindex=0;
+  const auth=useAuth();
   const inputref=useRef(null);
   const navigate=useNavigate();
   const uselocate=useLocation();
@@ -58,8 +61,8 @@ const data=uselocate.state&&uselocate.state.object;
     const digits=parseInt(d1+d2+d3+d4+d5+d6);
     e.preventDefault();
     console.log(digits);
-        setpage("loading");
-        navigate('/loading')
+    auth.setpage('loading')
+    navigate("/loading")
       data["otp"]=digits;
       
       try {
@@ -74,12 +77,21 @@ const data=uselocate.state&&uselocate.state.object;
         });
   
         console.log('Response from server:', response.data);
+        auth.setpage('register')
+        toast.success("Registration successfully please login with email and password ", {
+          position: 'top-center',
+          autoClose: 6000,
+        });
          navigate("/signin")
-         setpage("register");
-      
+        
        
       } catch (error) {
+        auth.setpage('register')
         console.error('Error:', error);
+        toast.error("invalid otp", {
+          position: 'top-center',
+          autoClose: 3000, 
+        });
        
       }
   }

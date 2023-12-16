@@ -4,35 +4,18 @@ import { useNavigate } from 'react-router-dom';
 import staricon from "../../assets/icons8-star-40.png"
 import homeicon from "../../assets/icons8-home-40.png"
 import { useAuth } from '../auth';
-export const Headder = ({setsigninpage}) => {
+export const Headder = ({changefun}) => {
   const navigate = useNavigate();
   const auth=useAuth();
-  const [change,setchange]=useState("home");
+ 
   const signout = () => {
     navigate("/signin");
+    
       auth.logout();
     
   };
 
-  const changefun = (value) => {
-
-    if (value === 'home') {
-      navigate("/signin/mainpage")
-      document.getElementById(value).style.filter = 'invert(1)';
-    
-      document.getElementById('star').style.filter = "none";
-    }
-
-    if (value === 'star') {
-      navigate("/signin/mainpage/bookmark")
-      document.getElementById(value).style.filter = 'invert(1)';
-      
-      document.getElementById("home").style.filter = 'none';
-     
-    }
-
-    setchange(value);
-  };
+ 
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -64,12 +47,12 @@ export const Headder = ({setsigninpage}) => {
   )}
 
   <div className="text-names">
-    <h3 >Park & go</h3>
+    <h3 >Park & Go</h3>
     <h5 >No Tension, No Worries: We've Got Your Parking</h5>
   </div>
   <div className="bannerbtn">
     <abbr title="Home"><img alt="np" id="home" src={homeicon} onClick={() => changefun("home")} /> </abbr>
-    <abbr title="Bookmarks"><img id="star" src={staricon} onClick={() => changefun("star")} alt="no"/></abbr>
+    <abbr title="My Bookings"><img id="star" src={staricon} onClick={() => changefun("star")} alt="no"/></abbr>
     <i onClick={signout} className="fa-sharp fa-solid fa-arrow-right-from-bracket fa-2xl"></i>
   </div>
 </div>

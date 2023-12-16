@@ -1,6 +1,18 @@
 .mainpage{
      position: absolute;
      width: 100%;
+     background-color: white;
      top:0;
      z-index: 10;
+     height: 100vh;
 }
+@media screen and (max-width: 600px) {
+    
+     .mainpage{
+      
+       width: 100%;
+     
+       
+   }
+      
+   }

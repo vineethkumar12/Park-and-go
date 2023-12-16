@@ -1,0 +1,177 @@
+.bookslotcontainer{
+   
+    position:absolute;
+    top:57px;
+     
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+    overflow: hidden;
+     z-index: 10;
+  }
+ .time{
+    
+    position: absolute;
+    background-color: #f09d3e;
+     border-radius: 4em;
+    margin: 3% auto;
+     color: white;
+     border: 6px solid  #ff8b1f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+    gap: 30px;
+    width: 400px;
+  
+   
+}
+.MuiPaper-root {
+  border: 5px solid #ff8b1f;
+  border-radius: 20px !important ;
+}
+.Mui-selected {
+  background-color: #ff8b1f !important;
+}
+.MuiFormControl-root {
+  border-radius: 10px !important; /* Adjust the radius as needed */
+  background-color: white !important; /* Set the background color to white */
+ 
+}
+
+.timeinpcontainer{
+    display: flex;
+      gap: 40px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-right: 15px;
+    
+}
+.timeinp{
+    width:200px;
+    height: 30px;
+    padding: 2px 24px;
+    color:rgb(21, 19, 19);
+    font-weight: bold;
+    border: 4px solid orange; 
+
+  
+    border-radius:30em;
+    outline: none;
+    
+}
+/* custom-styles.css */
+.MuiDateTimePickerToolbar-toolbar button.MuiButton-text.MuiButton-textPrimary {
+  display: none !important;
+}
+
+.savetimebutton{
+     position: absolute;
+     margin-top: 20%;
+     margin-left: -15%;
+    font-weight: bold;
+    font-size: 20px;
+   
+ border: 4px solid transparent;
+     width: 30%;
+     height: 20%;
+  border-radius: 30em;
+  padding: 2px 5px 2px 5px;
+  color:white;
+  cursor: pointer;
+
+  background-color:  #ff8b1f;;
+  
+}
+.savetimebutton:hover{
+  
+    transform: scale(1.08); 
+  }
+  
+  /* Style the DatePicker container */
+  .react-datepicker {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    overflow: hidden;
+     /* Increase the height as needed */
+   margin-top: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Style the header with navigation buttons and the selected date */
+  .react-datepicker__header {
+  
+     height: 45px;
+    background-color: #ff8b1f;
+    color: #fff;
+  }
+  .react-datepicker__time__header {
+     
+    background-color: #ff8b1f; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+   /* Set your desired width */
+    font-weight: bold; /* Optionally, you can set the font weight */
+  }
+  
+  /* Style the previous and next month navigation buttons */
+  .react-datepicker__navigation {
+    margin-top: 10px;
+   
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  /* Style the day names in the calendar */
+  .react-datepicker__day-name {
+    margin-top: 10px;
+   
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the individual day cells in the calendar */
+ 
+  .react-datepicker__day {
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+   /* Adjust padding as needed */
+    border: 2px solid orange; /* Set your desired border styles */
+    border-radius: 5px; /* Adjust border radius as needed */
+    outline: none; 
+  }
+  
+  /* Style the selected day */
+  
+  
+  .react-datepicker__time {
+  
+  
+    margin-top: 5px;
+    padding: 10px 10px;
+    border: 2px solid orange; 
+    border-radius: 5px; 
+    outline: none;
+    font-size: 16px; 
+    background-color: #fff; 
+    
+  }
+  
+
+/* Hide the scrollbar in Webkit-based browsers */
+.react-datepicker__time-list::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+
+
+  

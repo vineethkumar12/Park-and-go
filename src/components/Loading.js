@@ -1,28 +1,30 @@
 import React, { useEffect } from 'react';
 import './load.css';
 import {  useNavigate } from 'react-router-dom';
+import { useAuth } from './auth';
 
-export const Loading = ({ page}) => {
+export const Loading = () => {
   const navigate = useNavigate();
-  
+  const auth=useAuth();
   
 
  useEffect(() => {
-    if (page === "register") {
+    if (auth.page === "register") {
       
       navigate('/register');
       
      
     }
-    if (page === "signin") {
+    if (auth.page === "signin") {
       
       navigate('/signin');
       
      
     }
     
+    
    
-  }, [page, navigate]);
+  }, [auth.page, navigate]);
 
   return (
     <div className='loadbackgorund'>
