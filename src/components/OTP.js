@@ -26,7 +26,7 @@ export const OTP = ({ page, setpage }) => {
     d6: "",
   });
   const { d1, d2, d3, d4, d5, d6 } = otp;
-
+  //jjk
   const onChange = (key, e) => {
     const { value, name } = e.target;
 
