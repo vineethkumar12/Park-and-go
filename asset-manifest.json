@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Park-and-go/static/css/main.6b0ad0ee.css",
-    "main.js": "/Park-and-go/static/js/main.d82479a8.js",
+    "main.css": "/Park-and-go/static/css/main.2a0db56f.css",
+    "main.js": "/Park-and-go/static/js/main.dac0891b.js",
     "static/js/988.6475b1e7.chunk.js": "/Park-and-go/static/js/988.6475b1e7.chunk.js",
     "static/media/colorfullbackgroundimage.jpg": "/Park-and-go/static/media/colorfullbackgroundimage.2fb0d16ddf84b0567ce5.jpg",
     "static/media/offer.png": "/Park-and-go/static/media/offer.40ff854a77db7a559306.png",
@@ -23,12 +23,12 @@
     "static/media/slick.ttf": "/Park-and-go/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Park-and-go/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Park-and-go/index.html",
-    "main.6b0ad0ee.css.map": "/Park-and-go/static/css/main.6b0ad0ee.css.map",
-    "main.d82479a8.js.map": "/Park-and-go/static/js/main.d82479a8.js.map",
+    "main.2a0db56f.css.map": "/Park-and-go/static/css/main.2a0db56f.css.map",
+    "main.dac0891b.js.map": "/Park-and-go/static/js/main.dac0891b.js.map",
     "988.6475b1e7.chunk.js.map": "/Park-and-go/static/js/988.6475b1e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b0ad0ee.css",
-    "static/js/main.d82479a8.js"
+    "static/css/main.2a0db56f.css",
+    "static/js/main.dac0891b.js"
   ]
 }
