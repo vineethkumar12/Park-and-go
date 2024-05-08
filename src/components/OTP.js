@@ -59,7 +59,7 @@ export const OTP = ({ page, setpage }) => {
     try {
       const response = await axios({
         method: "POST",
-        url: "http://localhost:4000/verify-otp",
+        url: "https://python.csre.in/verify-otp",
         data: data,
         headers: {
           "Content-Type": "application/json",

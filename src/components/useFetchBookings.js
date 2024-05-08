@@ -12,7 +12,7 @@ const useFetchBookings = () => {
 
     const fetchBookings = async () => {
       try {
-        const response = await axios.get(`http://localhost:4000/my-bookings`, {
+        const response = await axios.get(`https://python.csre.in/my-bookings`, {
           headers: {
             "Content-Type": "application/json",
             Authorization: "Bearer " + localStorage.getItem("token"),

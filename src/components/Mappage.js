@@ -21,7 +21,7 @@ export const Mappage = ({ isLoadded }) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/parking-locations")
+      .get("https://python.csre.in/parking-locations")
       .then((response) => {
         setlocation(response.data.locationData);
       })

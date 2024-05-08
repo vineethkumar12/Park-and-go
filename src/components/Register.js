@@ -37,7 +37,7 @@ const Register = () => {
 
     axios
       .post(
-        "http://localhost:4000/signup",
+        "https://python.csre.in/signup",
         {
           email: register.email,
           username: register.username,

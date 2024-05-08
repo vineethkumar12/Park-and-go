@@ -29,7 +29,7 @@ export const Bookslot = () => {
   useEffect(() => {
     axios
       .get(
-        `http://localhost:4000/parking-slots?locationId=${data.data.locid}&startTime="${data.startTime}"&stopTime="${data.endTime}"`
+        `https://python.csre.in/parking-slots?locationId=${data.data.locid}&startTime="${data.startTime}"&stopTime="${data.endTime}"`
       )
       .then((response) => {
         setslotsdata(response.data.slotData);
@@ -44,7 +44,7 @@ export const Bookslot = () => {
   const bookslothandler = async () => {
     try {
       const response1 = await axios.post(
-        "http://localhost:4000/book-slot",
+        "https://python.csre.in/book-slot",
         {
           id: selectedslotid,
           startTime: data.startTime,
@@ -87,7 +87,7 @@ export const Bookslot = () => {
             console.log(response.razorpay_payment_id);
             axios
               .post(
-                "http://localhost:4000/payment",
+                "https://python.csre.in/payment",
                 {
                   id: response1.data.bookingId,
                   paymentId: response.razorpay_payment_id,
