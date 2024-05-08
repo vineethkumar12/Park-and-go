@@ -1,59 +1,66 @@
-import React, { useState } from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
-import { useAuth } from './auth';
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import './sign.css';
-import mail from '../assets/mail.png';
-import lock from '../assets/padlock.png';
-import axios from 'axios';
+import React, { useState } from "react";
+import { Outlet, useNavigate } from "react-router-dom";
+import { useAuth } from "./auth";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./sign.css";
+import mail from "../assets/mail.png";
+import lock from "../assets/padlock.png";
+import axios from "axios";
+import { Loading1 } from "./Loading1";
 
 export const Signin = ({ setpage }) => {
   const navigate = useNavigate();
+  const [loader, setloader] = useState("off");
   const auth = useAuth();
 
   const [signin, setSignin] = useState({
-    email: '',
-    password: '',
+    email: "",
+    password: "",
   });
 
   const onChange = (e) => {
     const { name, value } = e.target;
     setSignin({ ...signin, [name]: value });
   };
-  const removespaceemail=signin.email.trim();
+  const removespaceemail = signin.email.trim();
   const submi = (e) => {
     e.preventDefault();
 
-    auth.setpage('loading');
-    navigate('/loading');
-  
+    //auth.setpage("loading");
+    //navigate('/loading');
+    setloader("on");
+
     axios
       .post(
-        'http://localhost:4000/login',
-        { email:  removespaceemail, password: signin.password },
+        "http://localhost:4000/login",
+        { email: removespaceemail, password: signin.password },
         {
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
         }
       )
       .then((response) => {
-        auth.setpage('signin');
         auth.login(response.data.token);
-        navigate('/signin/mainpage');
+        //auth.setpage("signin");
+        setloader("off");
+        navigate("/signin/mainpage");
       })
       .catch((error) => {
-        console.error('There was a problem with the request:', error);
-        toast.error('Invalid credentials', {
-          position: 'top-center',
+        console.error("There was a problem with the request:", error);
+        toast.error("Invalid credentials", {
+          position: "top-center",
           autoClose: 3000, // Auto close the toast after 3 seconds
         });
-        auth.setpage('signin');
+
+        setloader("off");
       });
   };
 
-  return (
+  return loader === "on" ? (
+    <Loading1 />
+  ) : (
     <div className="backgroundblur">
       <Outlet />
       <div className="container">

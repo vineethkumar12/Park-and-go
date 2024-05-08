@@ -1,36 +1,24 @@
-import React, { useEffect } from 'react';
-import './load.css';
-import {  useNavigate } from 'react-router-dom';
-import { useAuth } from './auth';
+import React, { useEffect } from "react";
+import "./load.css";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "./auth";
 
 export const Loading = () => {
   const navigate = useNavigate();
-  const auth=useAuth();
-  
+  const auth = useAuth();
 
- useEffect(() => {
+  useEffect(() => {
     if (auth.page === "register") {
-      
-      navigate('/register');
-      
-     
+      navigate("/register");
     }
     if (auth.page === "signin") {
-      
-      navigate('/signin');
-      
-     
+      navigate("/signin");
     }
-    
-    
-   
   }, [auth.page, navigate]);
 
   return (
-    <div className='loadbackgorund'>
-      <div className='loading'>
-       
-      </div>
+    <div className="loadbackgorund">
+      <div className="loader"></div>
     </div>
   );
 };
