@@ -69,7 +69,7 @@ height: 100px;
     }
 }*/
 .form-group {
-  margin: 5px;
+  padding: 5px;
   position: relative;
   width: 310px;
 }
@@ -85,17 +85,25 @@ label {
 }
 .icons {
   position: absolute;
-  margin-top: -7%;
-  margin-left: 4%;
-  transform: translateY(-50%);
+  top: 25%;
+  left: 4%;
+  -moz-gap: 15px;
   height: 18px;
 }
 form {
   padding: 60px 40px 60px 0px;
   flex-direction: column;
+
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* This will override the default gap if Firefox doesn't fully support the standard `gap` property */
+@-moz-document url-prefix() {
+  form {
+    gap: 15px; /* Adjusted gap value for Firefox */
+  }
 }
 
 .inp {
