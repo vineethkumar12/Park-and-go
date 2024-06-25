@@ -34,7 +34,7 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/your-username/park-and-go.git
+   git clone https://github.com/vineethkumar12/Park-and-go.git
    cd park-and-go
    ```
 
