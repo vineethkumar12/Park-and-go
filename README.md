@@ -2,7 +2,7 @@ PROJECT LINK : https://parkngo.csre.in/#/signin
 
 #park and  go ui 
 ![Screenshot 2023-12-15 170851](https://github.com/vineethkumar12/Park-and-go/assets/104761399/e54bd29c-eab1-4c18-b0ff-8b05b9956816)
-![Screenshot 2023-10-29 [](141802](https://github.com/vineethkumar12/Park-and-go/assets/104761399/5ad5921d-105d-4915-bbda-e6d17268fd6d))
+![Screenshot 2023-10-29 (141802](https://github.com/vineethkumar12/Park-and-go/assets/104761399/5ad5921d-105d-4915-bbda-e6d17268fd6d))
 
 ![Screenshot 2023-11-10 140538](https://github.com/vineethkumar12/Park-and-go/assets/104761399/3bc33fdb-dc24-46c9-9609-0eb615bc5c52)
 ![Screenshot 2023-11-06 183255](https://github.com/vineethkumar12/Park-and-go/assets/104761399/ccdee991-8793-451c-a830-f9fc90392d5b)
