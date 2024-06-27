@@ -74,8 +74,6 @@ To get a local copy up and running, follow these steps:
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 - Mention any contributors or resources that helped inspire or support your project.
