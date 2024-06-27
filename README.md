@@ -75,16 +75,3 @@ To get a local copy up and running, follow these steps:
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
 
-## Acknowledgments
-- Mention any contributors or resources that helped inspire or support your project.
-
----
-
-### Note:
-- Customize the sections with specific details relevant to your project.
-- Update the URLs and commands to reflect your actual repository and setup instructions.
-- Include screenshots or GIFs to illustrate the UI or functionality if applicable.
-
-This format provides a focused overview of the "Park and Go" project, outlining its features, technologies used, setup instructions, and guidance for contributions. Adjust it further based on your project's specific requirements and characteristics.
-
-
